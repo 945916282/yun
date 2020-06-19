@@ -1,9 +1,11 @@
+import sys,os
+sys.path.append(r"C:\Users\Administrator\PycharmProjects\OA\package")
 import unittest
 from selenium import webdriver
 import time
 from ddt import ddt, data, unpack
 from package.OA_common import Excel
-import os
+
 
 excelPath = "C:\\Users\\Administrator\\Desktop\\login_data.xlsx"
 excel = Excel(excelPath, sheetname="Sheet1")
