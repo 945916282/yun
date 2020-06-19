@@ -1,5 +1,5 @@
 import sys,os
-sys.path.append(r"C:\Users\Administrator\PycharmProjects\OA\package")
+sys.path.append(r"C:\Users\Administrator\PycharmProjects\OA")
 import unittest
 from selenium import webdriver
 import time
